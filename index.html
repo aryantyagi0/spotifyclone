@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS- No Copyright Sounds</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="./covers/1.jpg" alt="">
+                    <span class="songname">Warriyo - Mortals [NCS Release]"</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="./covers/2.jpg" alt="">
+                    <span class="songname">Cielo - Huma-Huma</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="1"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="./covers/3.jpg" alt="">
+                    <span class="songname">DEAF KEV - Invincible [NCS Release]-320k</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id="2"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="./covers/4.jpg" alt="">
+                    <span class="songname">Different Heaven & EH!DE - My Heart [NCS Release]</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="3"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="./covers/5.jpg" alt="">
+                    <span class="songname">Janji-Heroes-Tonight-feat-Johnning-NCS-Release</span>
+                    <span class="songlistplay"><span class="timestamp">05:15 <i id="4"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="./covers/6.jpg" alt="">
+                    <span class="songname">Rabba - Salam-e-Ishq</span>
+                    <span class="songlistplay"><span class="timestamp">06:45 <i id="5"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="./covers/7.jpg" alt="">
+                    <span class="songname">Sakhiyaan - Salam-e-Ishq</span>
+                    <span class="songlistplay"><span class="timestamp">05:24 <i id="6"
+                                class="  fa-solid songitemplay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner">
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class=" fa-3x fa-solid fa-step-backward" id="previous"></i>
+            <i class=" fa-3x fa-solid fa-play-circle " id="masterplay"></i>
+            <i class=" fa-3x fa-solid fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="mastersongname"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e8c58a9a57.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
